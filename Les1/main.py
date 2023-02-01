@@ -38,3 +38,12 @@ print(int(text2[0]) + int(text2[1]) + int(text2[2]))
 #     print('Yes - шоколадку можно поделить')
 # else:
 #     print('No - шоколадку нельзя поделить')
+
+# Лучше так: 
+# n = int(input())
+# m = int(input())
+# k = int(input())   
+# if k <= m*n and (k%m==0 or k%n==0):
+#     print('YES')
+# else:
+#     print('NO')
